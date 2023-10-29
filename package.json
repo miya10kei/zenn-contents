@@ -1,0 +1,18 @@
+{
+  "name": "zenn-contents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "article": "npx zenn new:article",
+    "book": "npx zenn new:book",
+    "preview": "npx zenn preview --host 0.0.0.0 --port 8090",
+    "upgrade": "npm install zenn-cli@latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zenn-cli": "^0.1.148"
+  }
+}
